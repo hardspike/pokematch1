@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 900px)">
+    <script src="index.js"></script>
+    <title>Poke-Match</title>
+</head>
+
+<body onload="setImage(); startTimer()">
+
+    <br><br>
+    <h1 id="header">Welcome to the Poke-Match!</h1>
+    <br><br>
+
+    
+        
+            <div id="container">
+
+                
+                <div id="gameContainer">
+                    <div id="card1"></div>
+                    <div id="card2"></div>
+                    <div id="card3"></div>
+                    <div id="card4"></div>
+                    <div id="card5"></div>
+                    <div id="card6"></div>
+                    <div id="card7"></div>
+                    <div id="card8"></div>
+                    <div id="card9"></div>
+                    <div id="card10"></div>
+                    <div id="card11"></div>
+                    <div id="card12"></div>
+                    <div id="card13"></div>
+                    <div id="card14"></div>
+                    <div id="card15"></div>
+                    <div id="card16"></div>
+                    <div id="card17"></div>
+                    <div id="card18"></div>
+                    <div id="card19"></div>
+                    <div id="card20"></div>
+
+                </div>
+
+                <img onClick="document.location.reload(true)" id="resetBtn" src="assets/images/reset.png">
+            
+                <div id="details">
+                    <!-- Instead of displaying the number of moves, I chose to display score points -->
+                    <span>Points:
+                        <span id="points"></span>
+                    </span>
+                    <br>
+
+                    <div id="clock">00:00:00</div>
+                </div>
+            
+    </div>
+
+    <audio id="success">
+        <source src="assets/audio/Success.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="win">
+        <source src="assets/audio/win.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+
+
+    <div id="modal">
+        <div id="modal-content">
+            <h1 id="modalHeader">Well Done!</h1>
+            <br><br>
+            <h2 id="subHeader"></h2>
+            <br>
+            <button class="btn btn-primary" id="playButton" onclick="document.location.reload(true)">Play Again!</button>
+        </div>
+    </div>
+
+    <footer><span>©</span> All Right Reserved to Ishay Elimelech 2018 <span>©</span></footer>
+</body>
+
+</html>

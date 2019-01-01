@@ -1,0 +1,37 @@
+#header {
+    font-size: 3vw;
+}
+#container {
+    height: 140%;
+}
+#gameContainer {
+    width: 90%;
+    height: 75%;
+    margin: auto;
+}
+#resetBtn {
+    position: static;
+    outline: none;
+    width: 18%;
+    height: auto;
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
+        
+}
+#details {
+    font-size: 3.5vw;
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: 13%;
+    margin-right: 30%;
+    box-shadow: 2px 2px 5px 3px white,
+    -2px -2px 5px 3px white,
+    2px -2px 5px 3px white,
+    -2px 2px 5px 3px white;
+    border-radius: 10%;
+}
+footer {
+    font-size: 2vw !important;
+}
