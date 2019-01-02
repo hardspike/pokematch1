@@ -13,6 +13,10 @@ html, body {
     height: 75%;
     margin: auto;
 }
+#gameContainer img {
+    outline: 1px solid blue;
+    outline-offset: -1px;
+}
 #resetBtn {
     position: static;
     outline: none;
@@ -35,6 +39,44 @@ html, body {
     2px -2px 5px 3px white,
     -2px 2px 5px 3px white;
     border-radius: 10%;
+}
+#modal {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    z-index: 99;
+    padding-top: 50%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 35%;
+    border: 2px solid greenyellow;
+    border-radius: 2%;
+    background: url("assets/images/success.jpg") no-repeat center center;
+    background-size: cover;
+}
+#modalHeader {
+    font-size: 2.5vh;
+    margin-bottom: 10%;
+}
+#subHeader {
+    font-size: 2vh;
+}
+.btn-primary {
+    width: 30%;
+    height: 20%;
+    font-size: 1.4vh;
+    margin-bottom: 10%;
 }
 footer {
     font-size: 2vw !important;
