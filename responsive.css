@@ -1,8 +1,8 @@
 #header {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 #container {
-    height: 140%;
+    height: 130%;
 }
 #gameContainer {
     width: 100%;
@@ -36,5 +36,15 @@ footer {
     font-size: 2vw !important;
 }
 #match {
-    font-size: 3.5vw;
+    font-size: 6vw;
+}
+@keyframes match {
+    0% {
+        font-size: 15vw;
+        opacity: 0;
+    }
+    100% {
+        font-size: 6vw;
+        opacity: 0.7;
+    }
 }
